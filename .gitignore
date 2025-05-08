@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+
+# Django
+*.sqlite3
+db.sqlite3
+*.log
+local_settings.py
+
+# Environment
+.env
+*.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PostgreSQL (no DB files should be in Git)
+*.pgsql
+*.psql
+*.dump
+*.backup
+
+# VS Code
+.vscode/
